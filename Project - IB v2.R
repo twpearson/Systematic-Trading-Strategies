@@ -11,7 +11,7 @@ options(scipen=999)
 cat("\014")
 
 # ************ SET DATE RANGES AND SYSTEM PARAMETERS ***************************
-library(conflicted)
+library(conflicted) # to handle conflicts between packages
 library(Quandl)
 library(IBrokers)
 library(quantmod)
